@@ -1,5 +1,5 @@
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
+import { AppModule } from './modules/main/app.module';
 import { setSwagger } from './swagger';
 import * as Helmet from 'helmet';
 
